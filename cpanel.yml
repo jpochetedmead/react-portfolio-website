@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/<username>/public_html # Add /<app_folder> if required
-    - /bin cp * $DEPLOYPATH #copy all from root
+    - export DEPLOYPATH=/home/edmeadno/public_html/
+    - /bin/cp -R * $DEPLOYPATH
