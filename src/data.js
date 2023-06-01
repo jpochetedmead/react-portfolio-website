@@ -3,49 +3,108 @@
 export const projects = [
 
   {
-    title: "React Reserve",
+    title: "eCommerce Website",
     subtitle: "MERN Stack",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+    "CSET 280 - Capstone Project. The goal of this project was to emulate a real-world agency process to plan, design, and build a working web application according to client specifications and employer-defined workflows.",
     image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
-    technologies: ["Technology 1", "Technology 2", "Technology 3"],
+    link: "https://github.com/jpochetedmead/Ecommerce-Project",
+    technologies: ["PHP", "HTML", "CSS", "TailwindCSS", "MySQL"],
 
   },
 
   {
-    title: "React Tracks",
+    title: "Elderly Care Management System ",
     subtitle: "React and Python",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+    "In this project, my partners and I used PHP as the back-end language, PHPMyAdmin as the database management system, HTML5, CSS3, Bootstrap, Git, and GitHub to build a retirement home web application and API. The point of this was to get familiar with using PHP language and to solidify our knowledge of PHP development. We worked on this project for 4 weeks using an Agile/Scrum workflow.",
     image: "./project-2.gif",
     link: "https://reactbootcamp.com",
-    technologies: ["Technology 4", "Technology 5", "Technology 6"],
+    technologies: ["HTML", "CSS", "Bootstrap", "PHP", "MySQL"],
 
   },
 
-  {
-    title: "DevChat",
-    subtitle: "React and Firebase",
+  {//
+    title: "Retro Games Collection ",
+    subtitle: "Python & JavaScript: Games",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
-    technologies: ["Technology 7", "Technology 8", "Technology 9"],
+    "During our second semester, we embarked on our culminating project which aimed to integrate both front-end and back-end development skills. As a team, we successfully created a compilation of classic retro games, including Duck Hunt, Snake, Space Invaders, and Asteroids, and incorporated them into a dynamic website. The website allowed users to create personalized accounts, enabling them to store and retrieve their high scores for each game they played.",
+    image: "./retro-games.avif",
+    link: "https://github.com/jpochetedmead/RetroGamesCollection",
+    technologies: ["Python", "JavaScript", "CSS", "HTML"],
 
   },
 
+  {//
+    title: "Escape The Curse Of Chucky",
+    subtitle: "Python: Text Adventure Game",
+    description:
+    "I utilized Python3 and employed Object-Oriented Programming (OOP) principles in this Flask project to create a fast-paced Terminal/Command-line text-adventure game. Within the game, you find yourself in a perilous situation, pursued by the malevolent Chucky, where every decision you make carries the potential to determine your fate. The rules are straightforward: Survive at all costs.",
+    image: "./Chucky-Game.jpg",
+    link: "https://github.com/jpochetedmead/Flask-Adventure-Game",
+    technologies: ["Python", "HTML", "CSS", "TSQL"],
+  },
+
+  {//
+    title: "Space Invaders",
+    subtitle: "JavaScript Game",
+    description:
+    "This project served as the culmination of our first semester as developers. We successfully designed, built, and deployed a game, employing all the skills and technologies we have acquired thus far. Moreover, we adhered to a contemporary development workflow throughout the entire process.",
+    image: "./space-invaders.gif",
+    link: "https://github.com/jpochetedmead/Space-Invaders-Game-Project",
+    technologies: ["JavaScript", "CSS", "HTML"],
+  },
+
   {
-    title: "Epic Todo App",
+    title: "JavaScript TicTacToe",
     subtitle: "React Hooks",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+    "A partner and I were given one week to create a functional TicTacToe game. This game is the first JavaScript ES6 project I have ever created. The tech stack is just JavaScript as it says in the name, HTML, and CSS3. This allowed my partner and I to get versed in Basic JS and the Direct Object Model (DOM).",
     image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
-    technologies: ["Technology 10", "Technology 11", "Technology 12"],
-
+    link: "https://github.com/jpochetedmead/Tic-Tac-Toe-Game",
+    technologies: ["JavaScript", "CSS", "HTML"],
   },
-  
+
+  {
+    title: "Old Portfolio Website",
+    subtitle: "React Hooks",
+    description:
+    "The portfolio project was my first large assignment at Thaddeus Stevens. The project goals were to build a functional and appealing HTML5 and CSS3 website. I'm currently making an updated portfolio website and once it is done, then I'll archive this old portfolio site as a Read-Only project",
+    image: "./project-4.gif",
+    link: "https://github.com/jpochetedmead/jpochetedmead.github.io",
+    technologies: ["CSS", "HTML", "JavaScript"],
+  },
+
+  {
+    title: "Flask Todo App",
+    subtitle: "React Hooks",
+    description:
+    "This project was assigned before the final project of my freshman year in 2019. The goal was to create a simple API that created, updated, deleted, and managed to-do lists. The Tech Stack was Flask, PostgreSQL, Vanilla CSS3, HTML5, and Github. We were given one week for this assignment.",
+    image: "./project-4.gif",
+    link: "https://github.com/jpochetedmead/flask-todo",
+    technologies: ["Python", "HTML", "CSS", "Shell", "TSQL"],
+  },
+
+  {
+    title: "Current Portfolio Website",
+    subtitle: "React Hooks",
+    description:
+    "This HTML, CSS, and Javascript website serves as my online resume. I'm in the process of updating it with all my current skills and information and will soon update it to be a React application with its own domain.",
+    image: "./project-4.gif",
+    link: "https://github.com/jpochetedmead/react-portfolio-website",
+    technologies: ["JavaScript", "HTML", "CSS"],
+  },
+
+  {
+    title: "Edmead Notary Services",
+    subtitle: "React Hooks",
+    description:
+    "Building a website for a business that offers public notary services in the state of Florida.",
+    image: "./project-4.gif",
+    link: "https://edmeadnotaryservices.com/",
+    technologies: ["Wordpress", "HTML", "CSS", "PHP"],
+  },
+
 ];
 
 export const testimonials = [
