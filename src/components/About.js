@@ -9,11 +9,11 @@ export default function About() {
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
 
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
-            Julio Pochet Edmead
+            Julio Pochet Edmead.
             <br className="hidden lg:inline-block" />Software Developer with a passion for building amazing apps.
           </h1>
           <p className="mb-8 leading-relaxed">
-            I'm a highly motivated and skilled Software Developer with an associate degree in Software Engineering from Thaddeus Stevens College of Technology and currently pursuing a bachelor's degree in Information Technology from Central Penn College. I have a strong focus on frontend development and a proven ability to quickly learn and effectively implement new technologies. With my attention to detail and commitment to creating visually appealing and scalable software solutions, I am dedicated to developing innovative solutions and solving problems using my strong problem-solving and project management skills.
+            /n I'm a highly motivated and skilled Software Developer with an associate degree in Software Engineering from Thaddeus Stevens College of Technology and currently pursuing a bachelor's degree in Information Technology from Central Penn College. I have a strong focus on frontend development and a proven ability to quickly learn and effectively implement new technologies. With my attention to detail and commitment to creating visually appealing and scalable software solutions, I am dedicated to developing innovative solutions and solving problems using my strong problem-solving and project management skills.
           </p>
           <div className="flex justify-center">
             <a

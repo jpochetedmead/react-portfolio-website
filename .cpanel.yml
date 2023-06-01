@@ -1,5 +1,0 @@
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home4/edmeadno/repositories/react-portfolio-website
-    - /bin/cp -R * $DEPLOYPATH
