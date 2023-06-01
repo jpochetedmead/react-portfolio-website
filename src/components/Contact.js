@@ -73,10 +73,14 @@ export default function Contact() {
 
         <form
           name="contact"
-          onSubmit={handleSubmit}
+          //onSubmit={handleSubmit}
+          onSubmit="submit"
+          //
+          method="POST"
+          //
           className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
           data-netlify="true"
-          data-netlify-honeypot="bot-field"
+          netlify-honeypot="bot-field"
         >
           <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
             Contact Me
@@ -84,7 +88,9 @@ export default function Contact() {
           <p className="leading-relaxed mb-5">
             Thank you for your interest. Please fill out the form below to get in touch with me.
           </p>
+
           <input type="hidden" name="form-name" value="contact" />
+
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
               Name
@@ -98,6 +104,7 @@ export default function Contact() {
               required
             />
           </div>
+
           <div className="relative mb-4">
             <label htmlFor="email" className="leading-7 text-sm text-gray-400">
               Email
@@ -111,6 +118,7 @@ export default function Contact() {
               required
             />
           </div>
+
           <div className="relative mb-4">
             <label
               htmlFor="message"
@@ -126,6 +134,7 @@ export default function Contact() {
               required
             />
           </div>
+
           <button
             type="submit"
             className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
