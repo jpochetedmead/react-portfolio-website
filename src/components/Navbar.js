@@ -32,7 +32,7 @@ export default function Navbar() {
         </nav>
 
         <img
-          src="/profile-picture.jpg"
+          src="/profile-picture.png"
           alt="Profile Picture"
           className="w-12 h-12 rounded-full"
         />
@@ -46,7 +46,7 @@ export default function Navbar() {
           Download My Resume
           <DocumentDownloadIcon className="w-4 h-4 ml-1" />
         </a>
-        
+
       </div>
     </header>
   );
