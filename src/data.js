@@ -3,29 +3,49 @@
 export const projects = [
 
   {
-    title: "eCommerce Website",
-    subtitle: "MERN Stack",
+    title: "Current Portfolio Website",
+    subtitle: "React + TailwindCSS",
     description:
-    "CSET 280 - Capstone Project. The goal of this project was to emulate a real-world agency process to plan, design, and build a working web application according to client specifications and employer-defined workflows.",
-    image: "./project-1.gif",
+    "I have developed a dedicated domain for my React application, which serves as a comprehensive platform to showcase my recent skills, projects, and resume.",
+    image: "./react.jpochetedmead.gif",
+    link: "https://github.com/jpochetedmead/react-portfolio-website",
+    technologies: ["JavaScript", "HTML", "CSS"],
+  },
+
+  {
+    title: "Edmead Notary Services",
+    subtitle: "Wordpress Website",
+    description:
+    "I was tasked with developing a WordPress website for a Florida-based business that provides public notary services.",
+    image: "./edmeadnotaryservices.gif",
+    link: "https://edmeadnotaryservices.com/",
+    technologies: ["Wordpress", "HTML", "CSS", "PHP"],
+  },
+
+  {
+    title: "eCommerce Website",
+    subtitle: "PHP + TailwindCSS",
+    description:
+    "CSET 280 - Capstone Project: The objective of this project was to simulate the process of a real-world agency by planning, designing, and developing a functional web application based on client requirements and predefined workflows established by the employer. Collaborating with my team members, we successfully constructed an E-commerce Store utilizing PHP, HTML5, CSS3, TailwindCSS, and MySQL.",
+    image: "./eCommerce-pic.png",
     link: "https://github.com/jpochetedmead/Ecommerce-Project",
     technologies: ["PHP", "HTML", "CSS", "TailwindCSS", "MySQL"],
 
   },
 
   {
-    title: "Elderly Care Management System ",
-    subtitle: "React and Python",
+    title: "Elderly Care Management System",
+    subtitle: "PHP + Bootstrap",
     description:
-    "In this project, my partners and I used PHP as the back-end language, PHPMyAdmin as the database management system, HTML5, CSS3, Bootstrap, Git, and GitHub to build a retirement home web application and API. The point of this was to get familiar with using PHP language and to solidify our knowledge of PHP development. We worked on this project for 4 weeks using an Agile/Scrum workflow.",
-    image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
-    technologies: ["HTML", "CSS", "Bootstrap", "PHP", "MySQL"],
+    "During this project, my team and I leveraged PHP as the back-end language, PHPMyAdmin as the database management system, and employed HTML5, CSS3, Bootstrap, Git, and GitHub to construct a retirement home web application and API. The primary objective was to gain proficiency in PHP development and reinforce our understanding of the PHP language. The project spanned over 4 weeks, during which we adopted an Agile/Scrum workflow to facilitate our progress.",
+    image: "./doctor-visiting-senior.jpg",
+    link: "https://github.com/jpochetedmead/Elderly-Care-Management-System",
+    technologies: ["PHP", "HTML", "CSS", "Bootstrap", "MySQL"],
 
   },
 
-  {//
-    title: "Retro Games Collection ",
+  {
+    title: "Retro Games Collection",
     subtitle: "Python & JavaScript: Games",
     description:
     "During our second semester, we embarked on our culminating project which aimed to integrate both front-end and back-end development skills. As a team, we successfully created a compilation of classic retro games, including Duck Hunt, Snake, Space Invaders, and Asteroids, and incorporated them into a dynamic website. The website allowed users to create personalized accounts, enabling them to store and retrieve their high scores for each game they played.",
@@ -35,7 +55,7 @@ export const projects = [
 
   },
 
-  {//
+  {
     title: "Escape The Curse Of Chucky",
     subtitle: "Python: Text Adventure Game",
     description:
@@ -45,7 +65,17 @@ export const projects = [
     technologies: ["Python", "HTML", "CSS", "TSQL"],
   },
 
-  {//
+  {
+    title: "To-Do App",
+    subtitle: "Flask",
+    description:
+    "During my freshman year in 2019, I was assigned this project as a precursor to the final project. The objective was to develop a basic API capable of creating, updating, deleting, and managing to-do lists. The technology stack utilized for this assignment included Flask, PostgreSQL, Vanilla CSS3, HTML5, and Github for version control. The given timeframe for completing this task was one week.",
+    image: "./todo-list.png",
+    link: "https://github.com/jpochetedmead/flask-todo",
+    technologies: ["Python", "HTML", "CSS", "TSQL"],
+  },
+
+  {
     title: "Space Invaders",
     subtitle: "JavaScript Game",
     description:
@@ -56,76 +86,28 @@ export const projects = [
   },
 
   {
-    title: "JavaScript TicTacToe",
-    subtitle: "React Hooks",
+    title: "TicTacToe",
+    subtitle: "JavaScript",
     description:
-    "A partner and I were given one week to create a functional TicTacToe game. This game is the first JavaScript ES6 project I have ever created. The tech stack is just JavaScript as it says in the name, HTML, and CSS3. This allowed my partner and I to get versed in Basic JS and the Direct Object Model (DOM).",
-    image: "./project-4.gif",
+    "I was given a week to develop a fully functional TicTacToe game. This project marked my first venture into creating a JavaScript ES6 application. The technology stack employed for this project consisted of JavaScript, HTML, and CSS3. This experience enabled me to gain proficiency in Basic JS and the Document Object Model (DOM).",
+    image: "./tic-tac-toe.png",
     link: "https://github.com/jpochetedmead/Tic-Tac-Toe-Game",
     technologies: ["JavaScript", "CSS", "HTML"],
   },
 
   {
-    title: "Old Portfolio Website",
-    subtitle: "React Hooks",
+    title: "My First Portfolio Website",
+    subtitle: "HTML5 & CSS3",
     description:
-    "The portfolio project was my first large assignment at Thaddeus Stevens. The project goals were to build a functional and appealing HTML5 and CSS3 website. I'm currently making an updated portfolio website and once it is done, then I'll archive this old portfolio site as a Read-Only project",
-    image: "./project-4.gif",
+    "This portfolio project served as my initial significant assignment during my time at Thaddeus Stevens College of Technology. Its objectives were to construct an attractive and fully functional website utilizing HTML5 and CSS3.",
+    image: "./first-portfolio.png",
     link: "https://github.com/jpochetedmead/jpochetedmead.github.io",
     technologies: ["CSS", "HTML", "JavaScript"],
-  },
-
-  {
-    title: "Flask Todo App",
-    subtitle: "React Hooks",
-    description:
-    "This project was assigned before the final project of my freshman year in 2019. The goal was to create a simple API that created, updated, deleted, and managed to-do lists. The Tech Stack was Flask, PostgreSQL, Vanilla CSS3, HTML5, and Github. We were given one week for this assignment.",
-    image: "./project-4.gif",
-    link: "https://github.com/jpochetedmead/flask-todo",
-    technologies: ["Python", "HTML", "CSS", "Shell", "TSQL"],
-  },
-
-  {
-    title: "Current Portfolio Website",
-    subtitle: "React Hooks",
-    description:
-    "This HTML, CSS, and Javascript website serves as my online resume. I'm in the process of updating it with all my current skills and information and will soon update it to be a React application with its own domain.",
-    image: "./project-4.gif",
-    link: "https://github.com/jpochetedmead/react-portfolio-website",
-    technologies: ["JavaScript", "HTML", "CSS"],
-  },
-
-  {
-    title: "Edmead Notary Services",
-    subtitle: "React Hooks",
-    description:
-    "Building a website for a business that offers public notary services in the state of Florida.",
-    image: "./project-4.gif",
-    link: "https://edmeadnotaryservices.com/",
-    technologies: ["Wordpress", "HTML", "CSS", "PHP"],
   },
 
 ];
 
 export const testimonials = [
-
-  {
-    quote:
-    "Julio is very hardworking and focused in his work. With his deep Programming knowledge, communication, and excellent technical approach he always delivers innovative solutions for even the most complex business requirements. His humility and affability inspire me and have won the respect of all. Always innovative and hungry for knowledge. Never gives up quickly. Personally a very genuine person. He has a lot of energy and also possesses a lot of potential to grow further in his career. I wish him all the success in his career.",
-    image: "https://media.licdn.com/dms/image/D5603AQGqGrHjtiXYow/profile-displayphoto-shrink_100_100/0/1664458914293?e=1691020800&v=beta&t=ZWKMPMGnvggvGhOoYmO4w2ffB_cPPMbcfaGUZMoD7Cs",
-    name: "Dinesh Kumar",
-    company: "Coforge",
-    position: "Technical Specialist",
-  },
-
-  {
-    quote:
-    "I highly recommend Julio Pochet as a web developer. Julio created my personal website, and I am absolutely thrilled with the outcome. His expertise in software development and digital marketing is evident in the quality of his work. Moreover, Julio is a passionate and dedicated entrepreneur, which translates into his proactive approach and ability to overcome challenges. His professionalism, creativity, and attention to detail make him an excellent collaborator. If you are in need of a reliable and talented web developer, do not hesitate to enlist Julio Pochet's services.",
-    image: "https://media.licdn.com/dms/image/D4E03AQFwvv7AC-KOiQ/profile-displayphoto-shrink_100_100/0/1677034738675?e=1691020800&v=beta&t=Xw-e74BKSUdIZdeZVcEhXqt8jOeK9rXxS_X_wFXL5Cs",
-    name: "Yismerlin Peña",
-    company: "Doctor Ney Arias Lora Traumatology Hospital",
-    position: "User Support Assistant",  
-  },
 
   {
     quote:
@@ -138,14 +120,14 @@ export const testimonials = [
 
   {
     quote:
-    "I highly recommend Julio Pochet Edmead for web development projects. Julio recently developed a website for my notary services business, and I was thoroughly impressed. His communication, knowledge, and fast delivery were exceptional. I confidently endorse Julio to future employers or clients seeking a talented web developer.",
-    image: "https://media.licdn.com/dms/image/D4E03AQH4p75IGUJrcQ/profile-displayphoto-shrink_100_100/0/1682513931876?e=1691020800&v=beta&t=_0B0UD6h-hRGOAbVaS28riK--SCSX6BTqtqoEAAh0GA",
-    name: "Myrna Garcia",
-    company: "Edmead Notary Services LLC.",
-    position: "Founder & Notary Public",
+    "Julio is very hardworking and focused in his work. With his deep Programming knowledge, communication, and excellent technical approach he always delivers innovative solutions for even the most complex business requirements. His humility and affability inspire me and have won the respect of all. Always innovative and hungry for knowledge. Never gives up quickly. Personally a very genuine person. He has a lot of energy and also possesses a lot of potential to grow further in his career. I wish him all the success in his career.",
+    image: "https://media.licdn.com/dms/image/D5603AQGqGrHjtiXYow/profile-displayphoto-shrink_100_100/0/1664458914293?e=1691020800&v=beta&t=ZWKMPMGnvggvGhOoYmO4w2ffB_cPPMbcfaGUZMoD7Cs",
+    name: "Dinesh Kumar",
+    company: "Coforge",
+    position: "Technical Specialist",
   },
 
-   {
+  {
     quote:
     "Hardworking proficient developer who's an excellent team player and has great potential.",
     //image: "https://randomuser.me/api/portraits/men/1.jpg",
@@ -153,6 +135,24 @@ export const testimonials = [
     name: "Charles Crandall",
     company: "Kleen-Rite Corp.",
     position: "Web Developer",  
+  },
+
+  {
+    quote:
+    "I highly recommend Julio Pochet Edmead for web development projects. Julio recently developed a website for my notary services business, and I was thoroughly impressed. His communication, knowledge, and fast delivery were exceptional. I confidently endorse Julio to future employers or clients seeking a talented web developer.",
+    image: "https://media.licdn.com/dms/image/D4E03AQH4p75IGUJrcQ/profile-displayphoto-shrink_100_100/0/1682513931876?e=1691020800&v=beta&t=_0B0UD6h-hRGOAbVaS28riK--SCSX6BTqtqoEAAh0GA",
+    name: "Myrna Garcia",
+    company: "Edmead Notary Services LLC.",
+    position: "Owner",
+  },
+
+  {
+    quote:
+    "I highly recommend Julio Pochet as a web developer. Julio created my personal website, and I am absolutely thrilled with the outcome. His expertise in software development and digital marketing is evident in the quality of his work. Moreover, Julio is a passionate and dedicated entrepreneur, which translates into his proactive approach and ability to overcome challenges. His professionalism, creativity, and attention to detail make him an excellent collaborator. If you are in need of a reliable and talented web developer, do not hesitate to enlist Julio Pochet's services.",
+    image: "https://media.licdn.com/dms/image/D4E03AQFwvv7AC-KOiQ/profile-displayphoto-shrink_100_100/0/1677034738675?e=1691020800&v=beta&t=Xw-e74BKSUdIZdeZVcEhXqt8jOeK9rXxS_X_wFXL5Cs",
+    name: "Yismerlin Peña",
+    company: "Doctor Ney Arias Lora Traumatology Hospital",
+    position: "User Support Assistant",  
   },
 
    {
@@ -218,5 +218,11 @@ export const skills = [
 
   "Digital Marketing",
   "Logo Design",
+
+  "Facebook Ads",
+  "Google Ads",
+
+  "Problem Solving",
+  "Communication"
 
 ];

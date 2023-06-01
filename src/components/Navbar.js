@@ -11,6 +11,7 @@ export default function Navbar() {
     <header className="bg-gray-800 md:sticky top-0 z-10">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <a className="title-font font-medium text-white mb-4 md:mb-0">
+
           <a href="#about" className="ml-3 text-xl">
             JULIO POCHET EDMEAD
           </a>
@@ -29,6 +30,13 @@ export default function Navbar() {
             Contact
           </a>
         </nav>
+
+        <img
+          src="/profile-picture.jpg"
+          alt="Profile Picture"
+          className="w-12 h-12 rounded-full"
+        />
+
         <a
           href={resumeUrl}
           target="_blank"
@@ -38,6 +46,7 @@ export default function Navbar() {
           Download My Resume
           <DocumentDownloadIcon className="w-4 h-4 ml-1" />
         </a>
+        
       </div>
     </header>
   );

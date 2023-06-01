@@ -11,7 +11,7 @@ export default function Testimonials() {
         <div className="flex flex-col text-center w-full mb-12">
           <UsersIcon className="mx-auto inline-block w-10 mb-4 text-white" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font text-white">
-            Client Testimonials
+            Testimonials & Recommendations
           </h1>
         </div>
         <div className="flex flex-wrap -m-4">
@@ -34,6 +34,9 @@ export default function Testimonials() {
                     </span>
                     <span className="text-gray-400 text-sm uppercase">
                       {testimonial.company}
+                    </span>
+                    <span className="text-gray-400 text-sm uppercase">
+                      {testimonial.position}
                     </span>
                   </span>
                 </div>
